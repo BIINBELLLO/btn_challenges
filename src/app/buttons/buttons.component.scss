@@ -1,0 +1,40 @@
+.page__wrapper {
+  h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4f4f4f;
+  }
+
+  .btn-use-case {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    p {
+      font-family: Ubuntu Mono;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 12px;
+      color: #333333;
+    }
+    display: flex;
+    .side {
+      margin-right: 80px;
+    }
+  }
+
+  .footer {
+    margin: 30px 0 100px 0;
+    p {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #a9a9a9;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+<div>
+  <button
+    [class]="btnClass"
+    [ngClass]="{
+      disabledShadow: disabledShadow,
+      sm: small,
+      md: medium,
+      lg: large
+    }"
+    [disabled]="disabled"
+  >
+    <img
+      src="../../../assets/images/done_outline-white-18dp.svg"
+      alt=""
+      *ngIf="startIcon === 'done_icon'"
+    />
+    <img
+      src="../../../assets/images/add_shopping_cart-white-18dp.svg"
+      alt=""
+      *ngIf="startIcon === 'local_grocery_store'"
+    />
+    {{ btnText }}
+    <img
+      src="../../../assets/images/add_shopping_cart-white-18dp.svg"
+      alt=""
+      *ngIf="endIcon === 'local_grocery_store'"
+    />
+    <img
+      src="../../../assets/images/done_outline-white-18dp.svg"
+      alt=""
+      *ngIf="endIcon === 'done_icon'"
+    />
+  </button>
+</div>

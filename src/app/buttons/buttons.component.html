@@ -1,0 +1,101 @@
+<div class="page__wrapper">
+  <h3>Buttons</h3>
+  <div class="btn-use-case">
+    <div class="side">
+      <p>Buttons</p>
+      <Buttons [btnClass]="'default'"></Buttons>
+    </div>
+    <div class="side">
+      <p>&:hover &:focus</p>
+      <Buttons [btnClass]="'default'"></Buttons>
+    </div>
+  </div>
+  <div class="btn-use-case">
+    <div class="side">
+      <p>Buttons variant="outline"</p>
+      <Buttons [btnClass]="'outline'"></Buttons>
+    </div>
+    <div class="side">
+      <p>&:hover &:focus</p>
+      <Buttons [btnClass]="'outline'"></Buttons>
+    </div>
+  </div>
+  <div class="btn-use-case">
+    <div class="side">
+      <p>Buttons disabledShadow</p>
+      <Buttons [btnClass]="'primary'" [disabledShadow]="true"></Buttons>
+    </div>
+  </div>
+  <div class="btn-use-case">
+    <div class="side">
+      <p>Buttons variant="text"</p>
+      <Buttons [btnClass]="'text'"></Buttons>
+    </div>
+    <div class="side">
+      <p>&:hover &:focus</p>
+      <Buttons [btnClass]="'text'"></Buttons>
+    </div>
+  </div>
+  <div class="btn-use-case">
+    <div class="side">
+      <p>Buttons disabled</p>
+      <Buttons [btnClass]="'default'" [disabled]="true"></Buttons>
+    </div>
+    <div class="side">
+      <p>disabled variant='text'</p>
+      <Buttons [btnClass]="'text'" [disabled]="true"></Buttons>
+    </div>
+  </div>
+  <div class="btn-use-case">
+    <div class="side">
+      <p>Buttons startIcon=”local_grocery_store”</p>
+      <Buttons
+        [btnClass]="'primary'"
+        [startIcon]="'local_grocery_store'"
+      ></Buttons>
+    </div>
+    <div class="side">
+      <p>Buttons startIcon=”local_grocery_store”</p>
+      <Buttons
+        [btnClass]="'primary'"
+        [endIcon]="'local_grocery_store'"
+      ></Buttons>
+    </div>
+  </div>
+  <div class="btn-use-case">
+    <div class="side">
+      <p>Buttons size="sm"</p>
+      <Buttons [btnClass]="'primary'" [small]="true"></Buttons>
+    </div>
+    <div class="side">
+      <p>Buttons size="md"</p>
+      <Buttons [btnClass]="'primary'" [medium]="true"></Buttons>
+    </div>
+    <div class="side">
+      <p>Buttons size="lg"</p>
+      <Buttons [btnClass]="'primary'" [large]="true"></Buttons>
+    </div>
+  </div>
+  <div class="btn-use-case">
+    <div class="side">
+      <p>Buttons color="default"</p>
+      <Buttons [btnClass]="'default'" [large]="true"></Buttons>
+    </div>
+    <div class="side">
+      <p>Buttons color="primary"</p>
+      <Buttons [btnClass]="'primary'" [large]="true"></Buttons>
+    </div>
+    <div class="side">
+      <p>Buttons color="secondary"</p>
+      <Buttons [btnClass]="'secondary'" [large]="true"></Buttons>
+    </div>
+    <div class="side">
+      <p>Buttons color="danger"</p>
+      <Buttons [btnClass]="'danger'" [large]="true"></Buttons>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Icons: https://material.io/resources/icons/?style=round</p>
+    <p>created by devbinbello - devChallenges.io</p>
+  </div>
+</div>
